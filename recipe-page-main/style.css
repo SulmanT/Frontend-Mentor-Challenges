@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Young Serif", sans-serif; */
+    letter-spacing: 1.5;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+img {
+    margin: 20px 0 50px 0;
+}
+
+.container .h2 {
+    color: var(--nutmeg);
+}
+
+.container .h5 {
+    color: var(--dark-raspberry);
+    font-weight: 700;
+}
+
+.h1,
+.h2 {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+span {
+    text-decoration: bold;
+}
+
+ul li::marker,
+ol li::marker {
+    color: var(--nutmeg);
+    font-weight: 700;
+}
+
+ul li,
+ol li {
+    padding-left: 20px;
+    color: var(--wenge-brown);
+}
+
+.second-section {
+    background-color: var(--rose-white);
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.second-section li {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+span {
+    color: var(--wenge-brown);
+    font-weight: 700;
+}
+
+.instruction-section li {
+    padding: 5px;
+}
+
+.table span {
+    color: var(--nutmeg);
+}
+
+p,
+tr {
+    color: var(--wenge-brown);
+}
+
+.ingredients-section,
+.instruction-section {
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+.table td {
+    color: var(--wenge-brown);
+    padding: 10px 0 20px;
+}
